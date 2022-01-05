@@ -1,0 +1,23 @@
+homebrew_packages:
+- awscli
+- jq
+- pyenv
+- starship
+- zsh
+
+
+homebrew_cask_packages:
+- docker
+- iterm2
+- google-chrome
+
+pyenv_python_versions:
+# In precedence order
+- 3.10.1
+- 3.9.9
+- 3.8.12
+
+pip_packages:
+- black
+- boto
+- boto3
